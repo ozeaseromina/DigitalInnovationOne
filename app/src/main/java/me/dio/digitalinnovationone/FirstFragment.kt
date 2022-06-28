@@ -1,5 +1,6 @@
 package me.dio.digitalinnovationone
 
+import android.annotation.NonNull
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater

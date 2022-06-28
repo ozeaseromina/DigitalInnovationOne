@@ -1,19 +1,17 @@
+package one.digitalinnovation.digionebank
 
 class Pessoa {
-    var name: String = "Romina"
-    var cpf: String = "396.445.728.07"
+    var nome: String = "Jether"
+    var cpf: String = "123.123.123.11"
+    private set
 
+    constructor()
 
-    Inter class endereco {
-        var rua: String = "Rua teste"
-    }
+    fun pessoaInfo() = "$nome e $cpf"
 }
 fun main() {
-    val Romina = Pessoa()
-
-    println(Romina.name)
-    println(Romina.cpf)
-
+    val Jether = Pessoa()
+    println(Jether.pessoaInfo())
 }
 
 
