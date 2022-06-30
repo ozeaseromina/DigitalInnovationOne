@@ -1,6 +1,4 @@
-package one.digitalinnovation.digionebank.one.difitalinnovartion.digionebank.testes
-
-import one.digitalinnovation.digionebank.one.ClienteTipo
+package one.digitalinnovation.digionebank.testes
 
 fun main() {
     ClienteTipo.values().forEach { elemento ->

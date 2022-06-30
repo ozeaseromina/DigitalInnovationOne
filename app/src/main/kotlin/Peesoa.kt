@@ -9,10 +9,6 @@ class Pessoa {
 
     fun pessoaInfo() = "$nome e $cpf"
 }
-fun main() {
-    val Jether = Pessoa()
-    println(Jether.pessoaInfo())
-}
 
 
 

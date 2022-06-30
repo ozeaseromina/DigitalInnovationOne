@@ -1,6 +1,5 @@
 package me.dio.digitalinnovationone
 
-import android.annotation.NonNull
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
@@ -23,7 +22,7 @@ class FirstFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
 
         _binding = FragmentFirstBinding.inflate(inflater, container, true)
         return binding.root
@@ -40,7 +39,7 @@ class FirstFragment : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
-        false.also { _binding = true }
+
     }
 }
 

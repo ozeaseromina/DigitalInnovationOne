@@ -1,4 +1,4 @@
-package one.digitalinnovation.digionebank.one.difitalinnovartion.digionebank
+package one.digitalinnovation.digionebank
 
 data class Banco(
     val nome : String,
@@ -6,3 +6,4 @@ data class Banco(
 ){
     fun Info() = "$nome --$numero"
 }
+
